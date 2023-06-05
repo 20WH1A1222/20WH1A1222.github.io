@@ -21,5 +21,7 @@ let flipdata=function(){
         displayobject=Catold;
         iscat=true;
     }
-    document.getElementById()
+    document.getElementById("cat-img").src=displayobject.imgurl;
+    document.getElementById("cat-name").innerHTML=displayobject.name;
+    document.getElementById("para").innerHTML=displayobject.Description;
 }
