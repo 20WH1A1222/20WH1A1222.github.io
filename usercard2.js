@@ -9,3 +9,17 @@ let catyoung={
     name: "cats",
     Description: "little cats"
 }
+
+let iscat=true;
+let displayobject;
+let flipdata=function(){
+    if (iscat==true){
+        displayobject=catyoung;
+        iscat=false;
+    }
+    else{
+        displayobject=Catold;
+        iscat=true;
+    }
+    document.getElementById()
+}
