@@ -3,3 +3,9 @@ let Catold={
     name: "cat",
     Description: "Cat is an Animal"
 }
+
+let catyoung={
+    imgurl: "https://th.bing.com/th/id/OIP.3ASJSRy03PAtNYOTM-RQwgHaFj?pid=ImgDet&rs=1",
+    name: "cats",
+    Description: "little cats"
+}
