@@ -17,11 +17,11 @@ let getRandomUser=function(){
     .then(data =>{
         displayobject.name = data.results[0].name.first+" "+data.results[0].name.last
         //displayobject.name = "hello"
-        displayobject.imageurl=data.results[0].picture.large
+        displayobject.imgurl=data.results[0].picture.large
         displayobject.description=data.results[0].gender
         document.getElementById("cat-img").src=displayobject.imgurl;
         document.getElementById("cat-name").innerHTML=displayobject.name;
-        document.getElementById("para").innerHTML=displayobject.Description;
+        document.getElementById("para").innerHTML=displayobject.description;
       
     })
     
